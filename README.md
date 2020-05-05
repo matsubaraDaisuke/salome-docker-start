@@ -8,6 +8,7 @@ Docker上でSALOMEの開発環境を構築するためのリポジトリ
 XQuartzを事前にインストールして起動してください。
 
 XQuartzのネットワーククライアントからの接続を許可を有効化
+XQuartz >> 環境設定 >> セキュリティ
 
 ![image](https://user-images.githubusercontent.com/25544286/81047453-5efd1f00-8ef5-11ea-84c7-e6614b91dc79.png)
 
