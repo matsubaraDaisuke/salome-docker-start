@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    salome:
+      container_name: salome
+      build: ./docker
+      environment:
+       - DISPLAY=192.168.0.18:0.0
+      volumes:
+       - ./develop/:/home/salome
+       - /tmp/.X11-unix:/tmp/.X11-unix 
