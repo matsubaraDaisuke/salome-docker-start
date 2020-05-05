@@ -29,7 +29,7 @@ $ make IP
 iglxの有効化
 
 ``` terminal
-defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
+$ defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 ```
 
 X サーバへの接続が許可されるホスト名とユーザ名をリストに追加
