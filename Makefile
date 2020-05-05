@@ -5,4 +5,4 @@ build:
 	docker-compose up --build
 
 run: 
-	docker-compose run openmodelica /bin/bash
+	docker-compose run salome /bin/bash
